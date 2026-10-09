@@ -1,0 +1,56 @@
+name: Bug report
+description: Report a reproducible problem in pardarsh-core.
+title: "bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Please do not include personal data from real records.
+        Security vulnerabilities belong in a private report (see SECURITY.md), not here.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What went wrong?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Identifiers / record model
+        - Extensions / validation
+        - Events / history / projection
+        - Relations / graph
+        - Provenance
+        - Storage (memory or SQLite)
+        - Access / visibility
+        - Interchange (export / import bundles)
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: A minimal snippet, test or command that shows the problem.
+      render: rust
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: pardarsh-core version or commit, `rustc --version`, OS, and enabled features (e.g. `sqlite`).
+      render: text
+    validations:
+      required: true

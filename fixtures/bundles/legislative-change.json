@@ -1,0 +1,1040 @@
+{
+  "format": "pardarsh.bundle",
+  "format_version": "1.0",
+  "envelope_version": "1.0",
+  "origin": "legis.example.org",
+  "exported_at": "2026-04-03T09:00:00Z",
+  "completeness": "complete",
+  "entries": [
+    {
+      "record": {
+        "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cd323c2c1db",
+        "kind": "source",
+        "schema_version": "1.0",
+        "title": "Municipal Act, s. 42 (as amended by Act 17)",
+        "body": "The municipality shall maintain street lighting in public streets and repair faults within 7 days (14 during declared emergencies).",
+        "times": {
+          "recorded_at": "2026-04-03T09:00:00Z"
+        },
+        "actors": [],
+        "sources": [],
+        "relations": [
+          {
+            "id": "01a12130-e278-75e4-92aa-7cd400509b90",
+            "kind": "derived_from",
+            "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc009d6655c",
+            "certainty": "asserted",
+            "asserted_by": {
+              "actor": {
+                "type": "system",
+                "name": "clerk"
+              },
+              "disclosure": "public"
+            },
+            "asserted_at": "2026-04-03T09:00:00Z",
+            "retracted": false
+          }
+        ],
+        "visibility": {
+          "level": "public"
+        },
+        "lifecycle": {
+          "state": "active"
+        },
+        "extensions": {},
+        "version": 1,
+        "updated_at": "2026-04-03T09:00:00Z"
+      },
+      "history": [
+        {
+          "id": "01a12130-e278-75e4-92aa-7cd564618f4a",
+          "record_id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cd323c2c1db",
+          "sequence": 1,
+          "kind": {
+            "type": "created",
+            "record": {
+              "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cd323c2c1db",
+              "kind": "source",
+              "schema_version": "1.0",
+              "title": "Municipal Act, s. 42 (as amended by Act 17)",
+              "body": "The municipality shall maintain street lighting in public streets and repair faults within 7 days (14 during declared emergencies).",
+              "times": {
+                "recorded_at": "2026-04-03T09:00:00Z"
+              },
+              "actors": [],
+              "sources": [],
+              "relations": [
+                {
+                  "id": "01a12130-e278-75e4-92aa-7cd400509b90",
+                  "kind": "derived_from",
+                  "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc009d6655c",
+                  "certainty": "asserted",
+                  "asserted_by": {
+                    "actor": {
+                      "type": "system",
+                      "name": "clerk"
+                    },
+                    "disclosure": "public"
+                  },
+                  "asserted_at": "2026-04-03T09:00:00Z",
+                  "retracted": false
+                }
+              ],
+              "visibility": {
+                "level": "public"
+              },
+              "lifecycle": {
+                "state": "active"
+              },
+              "extensions": {},
+              "version": 1,
+              "updated_at": "2026-04-03T09:00:00Z"
+            }
+          },
+          "attribution": {
+            "actor": {
+              "type": "system",
+              "name": "clerk"
+            },
+            "disclosure": "public"
+          },
+          "occurred_at": "2026-04-03T09:00:00Z",
+          "recorded_at": "2026-04-03T09:00:00Z",
+          "visibility": {
+            "level": "public"
+          }
+        }
+      ],
+      "record_hash": "sha256:b63b5e629c009b8916051ccbe83991f89df44faaffe405189757ca462ba1baeb"
+    },
+    {
+      "record": {
+        "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cce5923fde3",
+        "kind": "decision",
+        "schema_version": "1.0",
+        "title": "Committee recommends Bill 17 as amended",
+        "times": {
+          "recorded_at": "2026-03-14T09:00:00Z"
+        },
+        "actors": [],
+        "sources": [],
+        "relations": [
+          {
+            "id": "01a12130-e278-75e4-92aa-7ccf2b4c899d",
+            "kind": "issued_by",
+            "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbd406efb76",
+            "certainty": "asserted",
+            "asserted_by": {
+              "actor": {
+                "type": "record",
+                "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbd406efb76"
+              },
+              "disclosure": "public"
+            },
+            "asserted_at": "2026-03-14T09:00:00Z",
+            "retracted": false
+          }
+        ],
+        "visibility": {
+          "level": "public"
+        },
+        "lifecycle": {
+          "state": "active"
+        },
+        "extensions": {},
+        "version": 1,
+        "updated_at": "2026-03-14T09:00:00Z"
+      },
+      "history": [
+        {
+          "id": "01a12130-e278-75e4-92aa-7cd0735b8f9d",
+          "record_id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cce5923fde3",
+          "sequence": 1,
+          "kind": {
+            "type": "created",
+            "record": {
+              "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cce5923fde3",
+              "kind": "decision",
+              "schema_version": "1.0",
+              "title": "Committee recommends Bill 17 as amended",
+              "times": {
+                "recorded_at": "2026-03-14T09:00:00Z"
+              },
+              "actors": [],
+              "sources": [],
+              "relations": [
+                {
+                  "id": "01a12130-e278-75e4-92aa-7ccf2b4c899d",
+                  "kind": "issued_by",
+                  "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbd406efb76",
+                  "certainty": "asserted",
+                  "asserted_by": {
+                    "actor": {
+                      "type": "record",
+                      "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbd406efb76"
+                    },
+                    "disclosure": "public"
+                  },
+                  "asserted_at": "2026-03-14T09:00:00Z",
+                  "retracted": false
+                }
+              ],
+              "visibility": {
+                "level": "public"
+              },
+              "lifecycle": {
+                "state": "active"
+              },
+              "extensions": {},
+              "version": 1,
+              "updated_at": "2026-03-14T09:00:00Z"
+            }
+          },
+          "attribution": {
+            "actor": {
+              "type": "record",
+              "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbd406efb76"
+            },
+            "disclosure": "public"
+          },
+          "occurred_at": "2026-03-14T09:00:00Z",
+          "recorded_at": "2026-03-14T09:00:00Z",
+          "visibility": {
+            "level": "public"
+          }
+        }
+      ],
+      "record_hash": "sha256:4a2793068d4552bee6254f11f50e49c28bbd1b7359648ac3399e3a6356f36936"
+    },
+    {
+      "record": {
+        "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cca39b8fd26",
+        "kind": "comment",
+        "schema_version": "1.0",
+        "title": "Response: amend to 14 days during declared emergencies",
+        "times": {
+          "recorded_at": "2026-03-04T09:00:00Z"
+        },
+        "actors": [],
+        "sources": [],
+        "relations": [
+          {
+            "id": "01a12130-e278-75e4-92aa-7ccb346f1984",
+            "kind": "responds_to",
+            "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc6ee883cce",
+            "certainty": "asserted",
+            "asserted_by": {
+              "actor": {
+                "type": "record",
+                "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbbc4abcb2c"
+              },
+              "disclosure": "public"
+            },
+            "asserted_at": "2026-03-04T09:00:00Z",
+            "retracted": false
+          }
+        ],
+        "visibility": {
+          "level": "public"
+        },
+        "lifecycle": {
+          "state": "active"
+        },
+        "extensions": {},
+        "version": 1,
+        "updated_at": "2026-03-04T09:00:00Z"
+      },
+      "history": [
+        {
+          "id": "01a12130-e278-75e4-92aa-7ccc2ccec4ab",
+          "record_id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cca39b8fd26",
+          "sequence": 1,
+          "kind": {
+            "type": "created",
+            "record": {
+              "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cca39b8fd26",
+              "kind": "comment",
+              "schema_version": "1.0",
+              "title": "Response: amend to 14 days during declared emergencies",
+              "times": {
+                "recorded_at": "2026-03-04T09:00:00Z"
+              },
+              "actors": [],
+              "sources": [],
+              "relations": [
+                {
+                  "id": "01a12130-e278-75e4-92aa-7ccb346f1984",
+                  "kind": "responds_to",
+                  "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc6ee883cce",
+                  "certainty": "asserted",
+                  "asserted_by": {
+                    "actor": {
+                      "type": "record",
+                      "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbbc4abcb2c"
+                    },
+                    "disclosure": "public"
+                  },
+                  "asserted_at": "2026-03-04T09:00:00Z",
+                  "retracted": false
+                }
+              ],
+              "visibility": {
+                "level": "public"
+              },
+              "lifecycle": {
+                "state": "active"
+              },
+              "extensions": {},
+              "version": 1,
+              "updated_at": "2026-03-04T09:00:00Z"
+            }
+          },
+          "attribution": {
+            "actor": {
+              "type": "record",
+              "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbbc4abcb2c"
+            },
+            "disclosure": "public"
+          },
+          "occurred_at": "2026-03-04T09:00:00Z",
+          "recorded_at": "2026-03-04T09:00:00Z",
+          "visibility": {
+            "level": "public"
+          }
+        }
+      ],
+      "record_hash": "sha256:9e45c400f8d80a316f18cee71102301a7168637d7caa7eec1795ed2f9f9cb398"
+    },
+    {
+      "record": {
+        "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc6ee883cce",
+        "kind": "comment",
+        "schema_version": "1.0",
+        "title": "Objection: 7 days is infeasible in monsoon",
+        "times": {
+          "recorded_at": "2026-03-04T09:00:00Z"
+        },
+        "actors": [],
+        "sources": [],
+        "relations": [
+          {
+            "id": "01a12130-e278-75e4-92aa-7cc7e88aa374",
+            "kind": "responds_to",
+            "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc39bbc2954",
+            "certainty": "asserted",
+            "asserted_by": {
+              "actor": {
+                "type": "record",
+                "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbd406efb76"
+              },
+              "disclosure": "public"
+            },
+            "asserted_at": "2026-03-04T09:00:00Z",
+            "retracted": false
+          },
+          {
+            "id": "01a12130-e278-75e4-92aa-7cc867bb86f8",
+            "kind": "disputes",
+            "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc39bbc2954",
+            "certainty": "asserted",
+            "asserted_by": {
+              "actor": {
+                "type": "record",
+                "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbd406efb76"
+              },
+              "disclosure": "public"
+            },
+            "asserted_at": "2026-03-04T09:00:00Z",
+            "retracted": false
+          }
+        ],
+        "visibility": {
+          "level": "public"
+        },
+        "lifecycle": {
+          "state": "active"
+        },
+        "extensions": {},
+        "version": 1,
+        "updated_at": "2026-03-04T09:00:00Z"
+      },
+      "history": [
+        {
+          "id": "01a12130-e278-75e4-92aa-7cc939a5cda6",
+          "record_id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc6ee883cce",
+          "sequence": 1,
+          "kind": {
+            "type": "created",
+            "record": {
+              "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc6ee883cce",
+              "kind": "comment",
+              "schema_version": "1.0",
+              "title": "Objection: 7 days is infeasible in monsoon",
+              "times": {
+                "recorded_at": "2026-03-04T09:00:00Z"
+              },
+              "actors": [],
+              "sources": [],
+              "relations": [
+                {
+                  "id": "01a12130-e278-75e4-92aa-7cc7e88aa374",
+                  "kind": "responds_to",
+                  "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc39bbc2954",
+                  "certainty": "asserted",
+                  "asserted_by": {
+                    "actor": {
+                      "type": "record",
+                      "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbd406efb76"
+                    },
+                    "disclosure": "public"
+                  },
+                  "asserted_at": "2026-03-04T09:00:00Z",
+                  "retracted": false
+                },
+                {
+                  "id": "01a12130-e278-75e4-92aa-7cc867bb86f8",
+                  "kind": "disputes",
+                  "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc39bbc2954",
+                  "certainty": "asserted",
+                  "asserted_by": {
+                    "actor": {
+                      "type": "record",
+                      "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbd406efb76"
+                    },
+                    "disclosure": "public"
+                  },
+                  "asserted_at": "2026-03-04T09:00:00Z",
+                  "retracted": false
+                }
+              ],
+              "visibility": {
+                "level": "public"
+              },
+              "lifecycle": {
+                "state": "active"
+              },
+              "extensions": {},
+              "version": 1,
+              "updated_at": "2026-03-04T09:00:00Z"
+            }
+          },
+          "attribution": {
+            "actor": {
+              "type": "record",
+              "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbd406efb76"
+            },
+            "disclosure": "public"
+          },
+          "occurred_at": "2026-03-04T09:00:00Z",
+          "recorded_at": "2026-03-04T09:00:00Z",
+          "visibility": {
+            "level": "public"
+          }
+        }
+      ],
+      "record_hash": "sha256:730a8cba29d73b273d3fe9698ecb9f6139e833e7df63c46e87e1103a3cb03a65"
+    },
+    {
+      "record": {
+        "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc39bbc2954",
+        "kind": "proposal",
+        "schema_version": "1.0",
+        "title": "Bill 17: repair deadline for street lighting",
+        "summary": "Adds a 7-day repair deadline (14 days during declared emergencies) to s. 42.",
+        "times": {
+          "recorded_at": "2026-03-03T09:00:00Z"
+        },
+        "actors": [
+          {
+            "role": "author",
+            "actor": {
+              "type": "record",
+              "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbbc4abcb2c"
+            },
+            "disclosure": "public"
+          }
+        ],
+        "sources": [],
+        "relations": [
+          {
+            "id": "01a12130-e278-75e4-92aa-7cc4b9fc1601",
+            "kind": "proposes_change_to",
+            "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc009d6655c",
+            "certainty": "asserted",
+            "asserted_by": {
+              "actor": {
+                "type": "record",
+                "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbbc4abcb2c"
+              },
+              "disclosure": "public"
+            },
+            "asserted_at": "2026-03-03T09:00:00Z",
+            "retracted": false
+          },
+          {
+            "id": "01a12130-e278-75e4-92aa-7cd115b40560",
+            "kind": "decided_by",
+            "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cce5923fde3",
+            "certainty": "asserted",
+            "asserted_by": {
+              "actor": {
+                "type": "system",
+                "name": "clerk"
+              },
+              "disclosure": "public"
+            },
+            "asserted_at": "2026-03-14T09:00:00Z",
+            "retracted": false
+          },
+          {
+            "id": "01a12130-e278-75e4-92aa-7cd631039da9",
+            "kind": "resulted_in",
+            "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cd323c2c1db",
+            "certainty": "asserted",
+            "asserted_by": {
+              "actor": {
+                "type": "system",
+                "name": "clerk"
+              },
+              "disclosure": "public"
+            },
+            "asserted_at": "2026-04-03T09:00:00Z",
+            "note": "enacted text resulting from the bill",
+            "retracted": false
+          }
+        ],
+        "visibility": {
+          "level": "public"
+        },
+        "lifecycle": {
+          "state": "active"
+        },
+        "extensions": {},
+        "version": 4,
+        "updated_at": "2026-04-03T09:00:00Z"
+      },
+      "history": [
+        {
+          "id": "01a12130-e278-75e4-92aa-7cc534d9a82c",
+          "record_id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc39bbc2954",
+          "sequence": 1,
+          "kind": {
+            "type": "created",
+            "record": {
+              "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc39bbc2954",
+              "kind": "proposal",
+              "schema_version": "1.0",
+              "title": "Bill 17: repair deadline for street lighting",
+              "summary": "Adds a 7-day repair deadline to s. 42.",
+              "times": {
+                "recorded_at": "2026-03-03T09:00:00Z"
+              },
+              "actors": [
+                {
+                  "role": "author",
+                  "actor": {
+                    "type": "record",
+                    "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbbc4abcb2c"
+                  },
+                  "disclosure": "public"
+                }
+              ],
+              "sources": [],
+              "relations": [
+                {
+                  "id": "01a12130-e278-75e4-92aa-7cc4b9fc1601",
+                  "kind": "proposes_change_to",
+                  "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc009d6655c",
+                  "certainty": "asserted",
+                  "asserted_by": {
+                    "actor": {
+                      "type": "record",
+                      "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbbc4abcb2c"
+                    },
+                    "disclosure": "public"
+                  },
+                  "asserted_at": "2026-03-03T09:00:00Z",
+                  "retracted": false
+                }
+              ],
+              "visibility": {
+                "level": "public"
+              },
+              "lifecycle": {
+                "state": "active"
+              },
+              "extensions": {},
+              "version": 1,
+              "updated_at": "2026-03-03T09:00:00Z"
+            }
+          },
+          "attribution": {
+            "actor": {
+              "type": "record",
+              "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbbc4abcb2c"
+            },
+            "disclosure": "public"
+          },
+          "occurred_at": "2026-03-03T09:00:00Z",
+          "recorded_at": "2026-03-03T09:00:00Z",
+          "visibility": {
+            "level": "public"
+          }
+        },
+        {
+          "id": "01a12130-e278-75e4-92aa-7ccdc6fff35d",
+          "record_id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc39bbc2954",
+          "sequence": 2,
+          "kind": {
+            "type": "amended",
+            "changes": [
+              {
+                "field": "summary",
+                "value": "Adds a 7-day repair deadline (14 days during declared emergencies) to s. 42."
+              }
+            ]
+          },
+          "attribution": {
+            "actor": {
+              "type": "record",
+              "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbbc4abcb2c"
+            },
+            "disclosure": "public"
+          },
+          "occurred_at": "2026-03-04T09:00:00Z",
+          "recorded_at": "2026-03-04T09:00:00Z",
+          "reason": "amendment after committee objection",
+          "visibility": {
+            "level": "public"
+          }
+        },
+        {
+          "id": "01a12130-e278-75e4-92aa-7cd26afe19a8",
+          "record_id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc39bbc2954",
+          "sequence": 3,
+          "kind": {
+            "type": "relation_added",
+            "relation": {
+              "id": "01a12130-e278-75e4-92aa-7cd115b40560",
+              "kind": "decided_by",
+              "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cce5923fde3",
+              "certainty": "asserted",
+              "asserted_by": {
+                "actor": {
+                  "type": "system",
+                  "name": "clerk"
+                },
+                "disclosure": "public"
+              },
+              "asserted_at": "2026-03-14T09:00:00Z",
+              "retracted": false
+            }
+          },
+          "attribution": {
+            "actor": {
+              "type": "system",
+              "name": "clerk"
+            },
+            "disclosure": "public"
+          },
+          "occurred_at": "2026-03-14T09:00:00Z",
+          "recorded_at": "2026-03-14T09:00:00Z",
+          "visibility": {
+            "level": "public"
+          }
+        },
+        {
+          "id": "01a12130-e278-75e4-92aa-7cd7806cdadf",
+          "record_id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc39bbc2954",
+          "sequence": 4,
+          "kind": {
+            "type": "relation_added",
+            "relation": {
+              "id": "01a12130-e278-75e4-92aa-7cd631039da9",
+              "kind": "resulted_in",
+              "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cd323c2c1db",
+              "certainty": "asserted",
+              "asserted_by": {
+                "actor": {
+                  "type": "system",
+                  "name": "clerk"
+                },
+                "disclosure": "public"
+              },
+              "asserted_at": "2026-04-03T09:00:00Z",
+              "note": "enacted text resulting from the bill",
+              "retracted": false
+            }
+          },
+          "attribution": {
+            "actor": {
+              "type": "system",
+              "name": "clerk"
+            },
+            "disclosure": "public"
+          },
+          "occurred_at": "2026-04-03T09:00:00Z",
+          "recorded_at": "2026-04-03T09:00:00Z",
+          "visibility": {
+            "level": "public"
+          }
+        }
+      ],
+      "record_hash": "sha256:40d25f91e844b565a04cdcbc0b82cc66112e7c31944773396ff48fe9e463b135"
+    },
+    {
+      "record": {
+        "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc009d6655c",
+        "kind": "source",
+        "schema_version": "1.0",
+        "title": "Municipal Act, s. 42: street lighting duty",
+        "body": "The municipality shall maintain street lighting in public streets.",
+        "times": {
+          "recorded_at": "2026-03-02T09:00:00Z"
+        },
+        "actors": [],
+        "sources": [
+          {
+            "id": "01a12130-e278-75e4-92aa-7cbf173770ed",
+            "locator": "https://legis.example.org/acts/municipal/s42",
+            "issuer": "State Legislative Assembly",
+            "retrieved_at": "2026-03-02T09:00:00Z",
+            "authority": "official",
+            "derivation": {
+              "type": "original"
+            },
+            "visibility": {
+              "level": "public"
+            }
+          }
+        ],
+        "relations": [
+          {
+            "id": "01a12130-e278-75e4-92aa-7cc1711c807d",
+            "kind": "issued_by",
+            "target": "pd:legis.example.org:01a12130-e277-7253-a6a3-336fa1bcd63c",
+            "certainty": "asserted",
+            "asserted_by": {
+              "actor": {
+                "type": "system",
+                "name": "clerk"
+              },
+              "disclosure": "public"
+            },
+            "asserted_at": "2026-03-02T09:00:00Z",
+            "retracted": false
+          }
+        ],
+        "visibility": {
+          "level": "public"
+        },
+        "lifecycle": {
+          "state": "superseded",
+          "by": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cd323c2c1db"
+        },
+        "extensions": {},
+        "version": 2,
+        "updated_at": "2026-04-03T09:00:00Z"
+      },
+      "history": [
+        {
+          "id": "01a12130-e278-75e4-92aa-7cc2349074a3",
+          "record_id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc009d6655c",
+          "sequence": 1,
+          "kind": {
+            "type": "created",
+            "record": {
+              "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc009d6655c",
+              "kind": "source",
+              "schema_version": "1.0",
+              "title": "Municipal Act, s. 42: street lighting duty",
+              "body": "The municipality shall maintain street lighting in public streets.",
+              "times": {
+                "recorded_at": "2026-03-02T09:00:00Z"
+              },
+              "actors": [],
+              "sources": [
+                {
+                  "id": "01a12130-e278-75e4-92aa-7cbf173770ed",
+                  "locator": "https://legis.example.org/acts/municipal/s42",
+                  "issuer": "State Legislative Assembly",
+                  "retrieved_at": "2026-03-02T09:00:00Z",
+                  "authority": "official",
+                  "derivation": {
+                    "type": "original"
+                  },
+                  "visibility": {
+                    "level": "public"
+                  }
+                }
+              ],
+              "relations": [
+                {
+                  "id": "01a12130-e278-75e4-92aa-7cc1711c807d",
+                  "kind": "issued_by",
+                  "target": "pd:legis.example.org:01a12130-e277-7253-a6a3-336fa1bcd63c",
+                  "certainty": "asserted",
+                  "asserted_by": {
+                    "actor": {
+                      "type": "system",
+                      "name": "clerk"
+                    },
+                    "disclosure": "public"
+                  },
+                  "asserted_at": "2026-03-02T09:00:00Z",
+                  "retracted": false
+                }
+              ],
+              "visibility": {
+                "level": "public"
+              },
+              "lifecycle": {
+                "state": "active"
+              },
+              "extensions": {},
+              "version": 1,
+              "updated_at": "2026-03-02T09:00:00Z"
+            }
+          },
+          "attribution": {
+            "actor": {
+              "type": "system",
+              "name": "clerk"
+            },
+            "disclosure": "public"
+          },
+          "occurred_at": "2026-03-02T09:00:00Z",
+          "recorded_at": "2026-03-02T09:00:00Z",
+          "visibility": {
+            "level": "public"
+          }
+        },
+        {
+          "id": "01a12130-e278-75e4-92aa-7cd897edc338",
+          "record_id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc009d6655c",
+          "sequence": 2,
+          "kind": {
+            "type": "superseded",
+            "by": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cd323c2c1db"
+          },
+          "attribution": {
+            "actor": {
+              "type": "system",
+              "name": "clerk"
+            },
+            "disclosure": "public"
+          },
+          "occurred_at": "2026-04-03T09:00:00Z",
+          "recorded_at": "2026-04-03T09:00:00Z",
+          "reason": "Act 17 in force",
+          "visibility": {
+            "level": "public"
+          }
+        }
+      ],
+      "record_hash": "sha256:6b9a8b0d5682ef87b50448e187943393fe5a7d352dfd43623620b09b3391a384"
+    },
+    {
+      "record": {
+        "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbd406efb76",
+        "kind": "actor",
+        "schema_version": "1.0",
+        "title": "Standing Committee on Urban Affairs",
+        "times": {
+          "recorded_at": "2026-03-02T09:00:00Z"
+        },
+        "actors": [],
+        "sources": [],
+        "relations": [],
+        "visibility": {
+          "level": "public"
+        },
+        "lifecycle": {
+          "state": "active"
+        },
+        "extensions": {},
+        "version": 1,
+        "updated_at": "2026-03-02T09:00:00Z"
+      },
+      "history": [
+        {
+          "id": "01a12130-e278-75e4-92aa-7cbeddc4145b",
+          "record_id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbd406efb76",
+          "sequence": 1,
+          "kind": {
+            "type": "created",
+            "record": {
+              "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbd406efb76",
+              "kind": "actor",
+              "schema_version": "1.0",
+              "title": "Standing Committee on Urban Affairs",
+              "times": {
+                "recorded_at": "2026-03-02T09:00:00Z"
+              },
+              "actors": [],
+              "sources": [],
+              "relations": [],
+              "visibility": {
+                "level": "public"
+              },
+              "lifecycle": {
+                "state": "active"
+              },
+              "extensions": {},
+              "version": 1,
+              "updated_at": "2026-03-02T09:00:00Z"
+            }
+          },
+          "attribution": {
+            "actor": {
+              "type": "system",
+              "name": "clerk"
+            },
+            "disclosure": "public"
+          },
+          "occurred_at": "2026-03-02T09:00:00Z",
+          "recorded_at": "2026-03-02T09:00:00Z",
+          "visibility": {
+            "level": "public"
+          }
+        }
+      ],
+      "record_hash": "sha256:40086de80b93782d879389cde886f754db42c22009f5cf0923cbb4e6a8f21304"
+    },
+    {
+      "record": {
+        "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbbc4abcb2c",
+        "kind": "actor",
+        "schema_version": "1.0",
+        "title": "Member, Constituency 12",
+        "times": {
+          "recorded_at": "2026-03-02T09:00:00Z"
+        },
+        "actors": [],
+        "sources": [],
+        "relations": [],
+        "visibility": {
+          "level": "public"
+        },
+        "lifecycle": {
+          "state": "active"
+        },
+        "extensions": {},
+        "version": 1,
+        "updated_at": "2026-03-02T09:00:00Z"
+      },
+      "history": [
+        {
+          "id": "01a12130-e278-75e4-92aa-7cbc9b16c1a4",
+          "record_id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbbc4abcb2c",
+          "sequence": 1,
+          "kind": {
+            "type": "created",
+            "record": {
+              "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbbc4abcb2c",
+              "kind": "actor",
+              "schema_version": "1.0",
+              "title": "Member, Constituency 12",
+              "times": {
+                "recorded_at": "2026-03-02T09:00:00Z"
+              },
+              "actors": [],
+              "sources": [],
+              "relations": [],
+              "visibility": {
+                "level": "public"
+              },
+              "lifecycle": {
+                "state": "active"
+              },
+              "extensions": {},
+              "version": 1,
+              "updated_at": "2026-03-02T09:00:00Z"
+            }
+          },
+          "attribution": {
+            "actor": {
+              "type": "system",
+              "name": "clerk"
+            },
+            "disclosure": "public"
+          },
+          "occurred_at": "2026-03-02T09:00:00Z",
+          "recorded_at": "2026-03-02T09:00:00Z",
+          "visibility": {
+            "level": "public"
+          }
+        }
+      ],
+      "record_hash": "sha256:6bf6f3baa968442291dee79150a21a39b8b3f4e373c55d514528efa1368ce382"
+    },
+    {
+      "record": {
+        "id": "pd:legis.example.org:01a12130-e277-7253-a6a3-336fa1bcd63c",
+        "kind": "actor",
+        "schema_version": "1.0",
+        "title": "State Legislative Assembly",
+        "times": {
+          "recorded_at": "2026-03-02T09:00:00Z"
+        },
+        "actors": [],
+        "sources": [],
+        "relations": [],
+        "visibility": {
+          "level": "public"
+        },
+        "lifecycle": {
+          "state": "active"
+        },
+        "extensions": {},
+        "version": 1,
+        "updated_at": "2026-03-02T09:00:00Z"
+      },
+      "history": [
+        {
+          "id": "01a12130-e277-7253-a6a3-3370e1d4960a",
+          "record_id": "pd:legis.example.org:01a12130-e277-7253-a6a3-336fa1bcd63c",
+          "sequence": 1,
+          "kind": {
+            "type": "created",
+            "record": {
+              "id": "pd:legis.example.org:01a12130-e277-7253-a6a3-336fa1bcd63c",
+              "kind": "actor",
+              "schema_version": "1.0",
+              "title": "State Legislative Assembly",
+              "times": {
+                "recorded_at": "2026-03-02T09:00:00Z"
+              },
+              "actors": [],
+              "sources": [],
+              "relations": [],
+              "visibility": {
+                "level": "public"
+              },
+              "lifecycle": {
+                "state": "active"
+              },
+              "extensions": {},
+              "version": 1,
+              "updated_at": "2026-03-02T09:00:00Z"
+            }
+          },
+          "attribution": {
+            "actor": {
+              "type": "system",
+              "name": "clerk"
+            },
+            "disclosure": "public"
+          },
+          "occurred_at": "2026-03-02T09:00:00Z",
+          "recorded_at": "2026-03-02T09:00:00Z",
+          "visibility": {
+            "level": "public"
+          }
+        }
+      ],
+      "record_hash": "sha256:305acee0710f9d9d61fb364e60ff687a8177b972914d77e5585c72267a29d9bc"
+    }
+  ],
+  "bundle_hash": "sha256:d1ee27d2de3b6469e8abb1570e9c40da981cfd87e43fceb18b62ab291e853581"
+}

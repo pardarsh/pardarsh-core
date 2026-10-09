@@ -1,0 +1,25 @@
+[package]
+name = "pardarsh-core"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Application-agnostic public record infrastructure: identifiers, record envelope, events, provenance, typed relationships, validation, storage and interchange."
+license = "Apache-2.0"
+publish = false
+
+[features]
+default = ["sqlite"]
+sqlite = ["dep:rusqlite"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", default-features = false, features = ["std", "clock", "serde"] }
+uuid = { version = "1", features = ["v7", "serde"] }
+sha2 = "0.10"
+hex = "0.4"
+thiserror = "2"
+rusqlite = { version = "0.37", features = ["bundled"], optional = true }
+
+[dev-dependencies]
+tempfile = "3"
