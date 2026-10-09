@@ -1,0 +1,55 @@
+{
+  "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc009d6655c",
+  "kind": "source",
+  "schema_version": "1.0",
+  "title": "Municipal Act, s. 42: street lighting duty",
+  "body": "The municipality shall maintain street lighting in public streets.",
+  "times": {
+    "recorded_at": "2026-03-02T09:00:00Z"
+  },
+  "actors": [],
+  "sources": [
+    {
+      "id": "01a12130-e278-75e4-92aa-7cbf173770ed",
+      "locator": "https://legis.example.org/acts/municipal/s42",
+      "issuer": "State Legislative Assembly",
+      "retrieved_at": "2026-03-02T09:00:00Z",
+      "authority": "official",
+      "derivation": {
+        "type": "original"
+      },
+      "visibility": {
+        "level": "public"
+      },
+      "content_hash": "md5:abc"
+    }
+  ],
+  "relations": [
+    {
+      "id": "01a12130-e278-75e4-92aa-7cc1711c807d",
+      "kind": "issued_by",
+      "target": "pd:legis.example.org:01a12130-e277-7253-a6a3-336fa1bcd63c",
+      "certainty": "asserted",
+      "asserted_by": {
+        "actor": {
+          "type": "system",
+          "name": "clerk"
+        },
+        "disclosure": "public"
+      },
+      "asserted_at": "2026-03-02T09:00:00Z",
+      "retracted": false
+    }
+  ],
+  "visibility": {
+    "level": "public"
+  },
+  "lifecycle": {
+    "state": "superseded",
+    "by": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cd323c2c1db"
+  },
+  "extensions": {},
+  "version": 2,
+  "updated_at": "2026-04-03T09:00:00Z",
+  "_conformance_note": "only sha256 hashes"
+}

@@ -1,0 +1,22 @@
+# Weekly re-check of the dependency policy, so new RustSec advisories are
+# caught even when nothing is pushed. CI runs the same check on every change.
+name: Dependency policy
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deny:
+    name: cargo-deny
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: EmbarkStudios/cargo-deny-action@v2
+        with:
+          command: check
+          arguments: --all-features

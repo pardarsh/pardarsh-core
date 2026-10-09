@@ -1,0 +1,40 @@
+name: Feature request
+description: Propose a change or addition to pardarsh-core.
+title: "feat: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        pardarsh-core is application-agnostic infrastructure. Application workflows, UI and policy
+        belong in the applications built on it (see docs/adr/0001-repository-boundary.md).
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem would this feature solve, and for which consumers of the crate?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+    validations:
+      required: true
+  - type: dropdown
+    id: format_impact
+    attributes:
+      label: Shared format impact
+      description: Does this change the serialized envelope, extensions, events or bundle format (see docs/versioning.md)?
+      options:
+        - "No format change"
+        - "Additive (minor version bump)"
+        - "Breaking (major version bump; needs an ADR)"
+        - "Not sure"
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Including whether this could live in an application as a namespaced extension instead.

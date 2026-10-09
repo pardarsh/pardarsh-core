@@ -1,0 +1,79 @@
+{
+  "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc39bbc2954",
+  "kind": "proposal",
+  "schema_version": "1.0",
+  "title": "Bill 17: repair deadline for street lighting",
+  "summary": "Adds a 7-day repair deadline (14 days during declared emergencies) to s. 42.",
+  "times": {
+    "recorded_at": "2026-03-03T09:00:00Z"
+  },
+  "actors": [
+    {
+      "role": "author",
+      "actor": {
+        "type": "record",
+        "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbbc4abcb2c"
+      },
+      "disclosure": "public"
+    }
+  ],
+  "sources": [],
+  "relations": [
+    {
+      "id": "01a12130-e278-75e4-92aa-7cc4b9fc1601",
+      "kind": "proposes_change_to",
+      "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cc009d6655c",
+      "certainty": "sourced",
+      "asserted_by": {
+        "actor": {
+          "type": "record",
+          "id": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cbbc4abcb2c"
+        },
+        "disclosure": "public"
+      },
+      "asserted_at": "2026-03-03T09:00:00Z",
+      "retracted": false
+    },
+    {
+      "id": "01a12130-e278-75e4-92aa-7cd115b40560",
+      "kind": "decided_by",
+      "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cce5923fde3",
+      "certainty": "asserted",
+      "asserted_by": {
+        "actor": {
+          "type": "system",
+          "name": "clerk"
+        },
+        "disclosure": "public"
+      },
+      "asserted_at": "2026-03-14T09:00:00Z",
+      "retracted": false
+    },
+    {
+      "id": "01a12130-e278-75e4-92aa-7cd631039da9",
+      "kind": "resulted_in",
+      "target": "pd:legis.example.org:01a12130-e278-75e4-92aa-7cd323c2c1db",
+      "certainty": "asserted",
+      "asserted_by": {
+        "actor": {
+          "type": "system",
+          "name": "clerk"
+        },
+        "disclosure": "public"
+      },
+      "asserted_at": "2026-04-03T09:00:00Z",
+      "note": "enacted text resulting from the bill",
+      "retracted": false
+    }
+  ],
+  "visibility": {
+    "level": "public"
+  },
+  "lifecycle": {
+    "state": "active"
+  },
+  "extensions": {},
+  "version": 4,
+  "updated_at": "2026-04-03T09:00:00Z",
+  "_conformance_note": "sourced certainty without sources"
+}
