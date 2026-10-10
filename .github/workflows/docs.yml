@@ -1,0 +1,86 @@
+name: Publish Rust Documentation
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Build documentation
+        run: cargo doc --workspace --no-deps
+        env:
+          RUSTDOCFLAGS: -D warnings
+
+      - name: Create documentation landing page
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          crate_dir="target/doc/pardarsh_core"
+
+          if [[ ! -f "$crate_dir/index.html" ]]; then
+            echo "Expected library documentation not found: $crate_dir/index.html"
+            exit 1
+          fi
+
+          cat > target/doc/index.html <<'EOF'
+          <!doctype html>
+          <html lang="en">
+            <head>
+              <meta charset="utf-8">
+              <meta http-equiv="refresh" content="0; url=pardarsh_core/index.html">
+              <title>Pardarsh Core Documentation</title>
+            </head>
+            <body>
+              <p>
+                Redirecting to
+                <a href="pardarsh_core/index.html">Pardarsh Core documentation</a>.
+              </p>
+            </body>
+          </html>
+          EOF
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: target/doc
+
+  deploy:
+    if: >-
+      github.event_name != 'pull_request' &&
+      (github.ref == 'refs/heads/main' ||
+       github.ref == 'refs/heads/master')
+    needs: build
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
